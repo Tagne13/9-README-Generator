@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
 // TODO: Create an array of questions for user input
@@ -31,7 +32,7 @@ const questions = [
         message: 'Enter instructions and examples for use. Include screenshots.'
     },
     {
-        type: 'rawlist',
+        type: 'list',
         name: 'license',
         message: 'Choose a license for your project by selecting a number. Note: it is recommended that you save a separate LICENSE file in the root of the repository. Refer to https://choosealicense.com/ for further details.'
     },
@@ -53,8 +54,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
+fs.writeToFile(fileName, JSON.stringify(data, null, '\t'), (err) => 
+    err ? console.log(err) : console.log('README generated!')
+);
 // TODO: Create a function to initialize app
 function init() {}
 
