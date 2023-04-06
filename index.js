@@ -35,7 +35,8 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'Choose a license for your project by selecting a number. Note: it is recommended that you save a separate LICENSE file in the root of the repository. Refer to https://choosealicense.com/ for further details.'
+        message: 'Choose a license for your project by selecting a number. Note: it is recommended that you save a separate LICENSE file in the root of the repository. Refer to https://choosealicense.com/ for further details.',
+        choices: ['agpl', 'apache', 'mit', 'no license']
     },
     {
         type: 'input',
@@ -59,12 +60,7 @@ let promptUser = () => {
     return inquirer.prompt(questions);
 }
 
-// Function to write README file
-fs.writeFile(fileName, JSON.stringify(data, null, '\t'), (err) => 
-    err ? console.log(err) : console.log('README generated!')
-);
-
-// Function to initialize app
+// Function to initialize app and write README file
 let init = async () => { 
     console.log('Welcome to the README generator. Please provide the appropriate inputs to quickly and seamlessly generate a README file for you next project.');
     try {
@@ -73,7 +69,8 @@ let init = async () => {
 
         const readme = generateMarkdown(answers);
 
-        await writeFile();
+        await writeFile('README.md', readme);
+        console.log('README generated!')
     } catch (err) {
         console.log(err);
     }
