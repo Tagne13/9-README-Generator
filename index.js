@@ -17,11 +17,11 @@ const questions = [
         name: 'description',
         message: 'Enter a description for your project. (Required)'
     },
-    {
-        type: 'input',
-        name: 'table of contents',
-        message: 'If your README is long, add a table of contents to make it easier to navigate.'
-    },
+    // {
+        // type: 'input',
+        // name: 'table of contents',
+        // message: 'If your README is long, add a table of contents to make it easier to navigate.'
+    // },
     {
         type: 'input',
         name: 'installation',
@@ -79,7 +79,7 @@ let init = async () => {
 
         const readme = generateMarkdown(answers);
 
-        await writeFile('README.md', readme);
+        await writeFile('README_demo.md', readme);
         console.log('README generated!')
     } catch (err) {
         console.log(err);
