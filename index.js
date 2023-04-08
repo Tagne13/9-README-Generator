@@ -10,12 +10,12 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Enter a title for your project.'
+        message: 'Enter a title for your project. (Required)'
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Enter a description for your project.'
+        message: 'Enter a description for your project. (Required)'
     },
     {
         type: 'input',
@@ -25,12 +25,12 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.'
+        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. (Required)'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Enter instructions and examples for use. Include screenshots.'
+        message: 'Enter instructions and examples for use. Include screenshots. (Required)'
     },
     {
         type: 'list',
@@ -46,13 +46,23 @@ const questions = [
     {
         type: 'input',
         name: 'tests',
-        message: 'If you have tests for your application, enter test instructions and provide examples on how to run them.'
+        message: 'If you have tests for your application, enter test instructions and provide examples on how to run them. (Required)'
     },
     {
         type: 'input',
         name: 'questions',
         message: 'If applicable, enter additional instructions on how to reach you with questions.'
     },
+    {
+        type: 'input',
+        name: 'githubUsername',
+        message: 'Please enter your GitHub username. (Required)'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email address. (Required)'
+    }
 ];
 
 // Prompt user with questions
