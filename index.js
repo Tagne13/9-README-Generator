@@ -17,11 +17,6 @@ const questions = [
         name: 'description',
         message: 'Enter a description for your project. (Required)'
     },
-    // {
-        // type: 'input',
-        // name: 'table of contents',
-        // message: 'If your README is long, add a table of contents to make it easier to navigate.'
-    // },
     {
         type: 'input',
         name: 'installation',
