@@ -1,5 +1,5 @@
 
-  # Hoochie Momma
+  # Professional README Generator
 
   
     ![badge](https://img.shields.io/badge/license-mit-blue)
@@ -19,15 +19,15 @@
   
   ## [Description](#table-of-contents)
 
-  An app to generate the lyrics for the song 'Hoochie Momma'
+  An application devloped using node.js that generates a professional README file based on user input.
 
   ## [Installation](#table-of-contents)
 
-  Run node index.js in the command line.
+  Fork this repository. Run npm init. Run npm install inquirer. Run node index.js to start the application.
 
   ## [Usage](#table-of-contents)
 
-  blah blah blah
+  When the application starts, answer each prompt or leave blank if applicable. When all questions have been answered, a file named README_demo.md will be generated within the local folder.
 
   
     ## [License](#table-of-contents)
@@ -41,16 +41,16 @@
 
   ## [Contributing](#table-of-contents)
 
-  N/A
+  No contributions will be accepted at this time.
 
   ## [Tests](#table-of-contents)
 
-  N/A
+  To test this application, open up the file in VS Code. Open the command line, change the directory to the root folder 9-README-Generator, and run 'node index.js'.
 
   ## [Questions](#table-of-contents)
 
   Please contact me using the following links:
 
-  [GitHub](https://github.com/undefined)
+  [GitHub](https://github.com/Tagne13)
 
-  [Email: undefined](mailto:undefined)
+  [Email: Tagne13@gmail.com](mailto:Tagne13@gmail.com)
