@@ -1,8 +1,8 @@
 
-  # Professional README Generator
+  # Test Run
 
   
-    ![badge](https://img.shields.io/badge/license-mit-blue)
+    ![badge](https://img.shields.io/badge/license-MIT-blue)
     
 
   ## Table of Contents
@@ -11,7 +11,7 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * 
-    [mit](https://choosealicense.com/licenses/mit)
+    [MIT](https://choosealicense.com/licenses/MIT)
     
   * [Contributing](#contributing)
   * [Tests](#tests)
@@ -19,15 +19,15 @@
   
   ## [Description](#table-of-contents)
 
-  An application devloped using node.js that generates a professional README file based on user input.
+  this is a test run for changes made to the markdown generator
 
   ## [Installation](#table-of-contents)
 
-  Fork this repository. Run npm init. Run npm install inquirer. Run node index.js to start the application.
+  N/A
 
   ## [Usage](#table-of-contents)
 
-  When the application starts, answer each prompt or leave blank if applicable. When all questions have been answered, a file named README_demo.md will be generated within the local folder.
+  N/A
 
   
     ## [License](#table-of-contents)
@@ -35,17 +35,17 @@
     The application is covered under the following license:
     
     
-    [mit](https://choosealicense.com/licenses/mit)
+    [MIT](https://choosealicense.com/licenses/MIT)
     
     
 
   ## [Contributing](#table-of-contents)
 
-  No contributions will be accepted at this time.
+  N/A
 
   ## [Tests](#table-of-contents)
 
-  To test this application, open up the file in VS Code. Open the command line, change the directory to the root folder 9-README-Generator, and run 'node index.js'.
+  N/A
 
   ## [Questions](#table-of-contents)
 

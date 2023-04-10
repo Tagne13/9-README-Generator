@@ -2,7 +2,7 @@
   # Professional README Generator
 
   
-    ![badge](https://img.shields.io/badge/license-mit-blue)
+    ![badge](https://img.shields.io/badge/license-MIT-blue)
     
 
   ## Table of Contents
@@ -11,7 +11,7 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * 
-    [mit](https://choosealicense.com/licenses/mit)
+    [MIT](https://choosealicense.com/licenses/MIT)
     
   * [Contributing](#contributing)
   * [Tests](#tests)
@@ -35,7 +35,7 @@
     The application is covered under the following license:
     
     
-    [mit](https://choosealicense.com/licenses/mit)
+    [MIT](https://choosealicense.com/licenses/MIT)
     
     
 
