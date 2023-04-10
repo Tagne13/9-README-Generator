@@ -2,7 +2,7 @@
 function renderLicenseBadge(license) {
   if (license !== 'no license') {
     return `
-    ![badge](https://img.shields.io/badge/license-${license}-blue)
+    ![badge](https://img.shields.io/badge/License-${license}-blue)
     `;
   } else {
     return ' ';
@@ -24,7 +24,6 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'no license') {
     return `
-    ## [License](#table-of-contents)
     
     The application is covered under the following license:
     
@@ -63,6 +62,8 @@ function generateMarkdown(data) {
   ## [Usage](#table-of-contents)
 
   ${data.usage}
+
+  ## [License](#table-of-contents)
 
   ${renderLicenseSection(data.license)}
 
