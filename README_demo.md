@@ -19,15 +19,15 @@
   
   ## [Description](#table-of-contents)
 
-  this is a test run for changes made to the markdown generator
+   this is a test run for changes made to the markdown generator
 
   ## [Installation](#table-of-contents)
 
-  N/A
+  Fork this repository. Run npm init. Run npm install inquirer. Run node index.js to start the application.
 
   ## [Usage](#table-of-contents)
 
-  N/A
+  When the application starts, answer each prompt or leave blank if applicable. When all questions have been answered, a file named README_demo.md will be generated within the local folder.
 
   ## [License](#table-of-contents)
 
@@ -46,7 +46,7 @@
 
   ## [Tests](#table-of-contents)
 
-  N/A
+  To test this application, open up the file in VS Code. Open the command line, change the directory to the root folder 9-README-Generator, and run 'node index.js'.
 
   ## [Questions](#table-of-contents)
 
