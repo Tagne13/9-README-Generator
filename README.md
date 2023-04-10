@@ -30,6 +30,8 @@
   When the application starts, answer each prompt or leave blank if applicable. When all questions have been answered, a file named README_demo.md will be generated within the local folder.
 
   ![screenshot](images/Screenshot.png)
+
+  Video Walkthrough:[here](https://drive.google.com/file/d/1mma42tS25WP35CsB5RDdd5XHMkB17MXl/view)
   
   ## [License](#table-of-contents)
     
