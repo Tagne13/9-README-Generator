@@ -29,6 +29,7 @@
 
   When the application starts, answer each prompt or leave blank if applicable. When all questions have been answered, a file named README_demo.md will be generated within the local folder.
 
+  ![screenshot](./images/screenshot.png)
   
   ## [License](#table-of-contents)
     
