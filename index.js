@@ -31,7 +31,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license for your project by selecting a number. Note: it is recommended that you save a separate LICENSE file in the root of the repository. Refer to https://choosealicense.com/ for further details.',
-        choices: ['agpl', 'apache', 'mit', 'no license']
+        choices: ['AGPL', 'APACHE', 'MIT', 'No License']
     },
     {
         type: 'input',
