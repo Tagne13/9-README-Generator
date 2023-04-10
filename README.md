@@ -31,7 +31,7 @@
 
   ![screenshot](images/Screenshot.png)
 
-  Video Walkthrough:[here](https://drive.google.com/file/d/1mma42tS25WP35CsB5RDdd5XHMkB17MXl/view)
+  Video Walkthrough: [Click Here](https://drive.google.com/file/d/1mma42tS25WP35CsB5RDdd5XHMkB17MXl/view)
   
   ## [License](#table-of-contents)
     
