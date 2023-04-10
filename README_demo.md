@@ -2,7 +2,7 @@
   # Test Run
 
   
-    ![badge](https://img.shields.io/badge/License-MIT-blue)
+    [![License](https://img.shields.io/badge/License-MIT-blue.svg)]
     
 
   ## Table of Contents
@@ -19,7 +19,7 @@
   
   ## [Description](#table-of-contents)
 
-   this is a test run for changes made to the markdown generator
+  this is a test run for changes made to the markdown generator
 
   ## [Installation](#table-of-contents)
 
