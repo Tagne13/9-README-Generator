@@ -2,7 +2,7 @@
   # Test Run
 
   
-    ![badge](https://img.shields.io/badge/license-MIT-blue)
+    ![badge](https://img.shields.io/badge/License-MIT-blue)
     
 
   ## Table of Contents
@@ -19,7 +19,7 @@
   
   ## [Description](#table-of-contents)
 
-  this is a test run for changes made to the markdown generator
+   this is a test run for changes made to the markdown generator
 
   ## [Installation](#table-of-contents)
 
@@ -29,8 +29,9 @@
 
   N/A
 
+  ## [License](#table-of-contents)
+
   
-    ## [License](#table-of-contents)
     
     The application is covered under the following license:
     
