@@ -2,7 +2,7 @@
   # Professional README Generator
 
   
-    ![badge](https://img.shields.io/badge/license-MIT-blue)
+    ![badge](https://img.shields.io/badge/License-MIT-blue)
     
 
   ## Table of Contents
@@ -30,12 +30,12 @@
   When the application starts, answer each prompt or leave blank if applicable. When all questions have been answered, a file named README_demo.md will be generated within the local folder.
 
   
-    ## [License](#table-of-contents)
+  ## [License](#table-of-contents)
     
-    The application is covered under the following license:
+  The application is covered under the following license:
     
     
-    [MIT](https://choosealicense.com/licenses/MIT)
+  [MIT](https://choosealicense.com/licenses/MIT)
     
     
 
