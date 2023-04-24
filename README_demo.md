@@ -1,5 +1,5 @@
 
-  # SVG Logo Generator
+  # 11-Note-Taker
 
   
   ![License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -10,39 +10,43 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [MIT](https://choosealicense.com/licenses/MIT)
+  * 
+    [MIT](https://choosealicense.com/licenses/MIT)
+    
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## [Description](#table-of-contents)
 
-  Generate a SVG logo with options of shape (circle, square, or triangle), shape color, text (limit of 3 characters), and text color. Shape and text colors can be chosen using color keywords or hexadecimal numbers.
+  This application provides the user the ability to create and save notes, as well as delete once the saved item is no longer required. Back-end functionality was created to supplement front-end starter code. Technologies utilized include node.js, express, Heroku, and Insomnia.
 
   ## [Installation](#table-of-contents)
 
-  Check if Node.js is installed by typing 'node -v' in the command line/terminal. Next, clone this project repository to your local machine. Use the command 'npm install' to install dependencies. Use the command 'npm install --save-dev-jest' to install Jest as a devDependency.
+  To run this application locally, ensure node.js is installed. Then, clone this project's repository. Use the "npm install" command in the command line to install the required dependancies. Then enter "node server.js" or "npm start" to start the server.
 
   ## [Usage](#table-of-contents)
 
-  Change directories toy uor new project folder in the terminal/command line. Invoke the app by typing 'node index.js' or by typing the script npm start in the terminal/command line. You will be asked a series of questions before your logo is generated. Once all prompts have been answered with accepted values, your new logo will be generated with the file name 'logo.svg' in the 'samples' folder. Refer back to the video posted in this README as needed.
+  Access through the deployed Heroku link. Type a note entry into the designated areas. Click on the save icon to save your entry. Access and open the saved note entries by selecting from the list. Finally, you can click on the trash icon to delete an entry once no longer required. Watch the below video for a full demonstration. 
 
   ## [License](#table-of-contents)
 
-  The application is covered under the following license:
+  
+    
+    The application is covered under the following license:
     
     
-  [MIT](https://choosealicense.com/licenses/MIT)
+    [MIT](https://choosealicense.com/licenses/MIT)
     
     
 
   ## [Contributing](#table-of-contents)
 
-  N/A
+  Starter code was provided by Xander Rapstine (Xandromus).
 
   ## [Tests](#table-of-contents)
 
-  Each shape class (circle, square, trianle) is tested for a render() method that returns a string for the corresponding SVG file matching color and text requests. Type 'npm test' in the command line/terminal and Jest will run the tests.
+  N/A
 
   ## [Questions](#table-of-contents)
 
